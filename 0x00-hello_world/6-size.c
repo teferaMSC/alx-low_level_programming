@@ -1,8 +1,9 @@
 #include<stdio.h>
 /**
- * main - print the size of various typesa baded onthe computer
- * it is compiiled and run on..
- * Returen:Always 0.
+ * main - print the size of various typesa based 
+ * on the computer
+ * it is compiled and run on..
+ * Return:Always 0.
  */
 int main(void)
 {
