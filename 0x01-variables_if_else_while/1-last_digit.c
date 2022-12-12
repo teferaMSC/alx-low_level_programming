@@ -1,13 +1,13 @@
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
-int main (void)
+int main(void)
 {
 	int n;
 	int last;
-	srand (time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last = n%10;
+	last=n%10;
 	if (last > 5)
 		printf("last digit of %1 is %1 and greater than 5\n", n, last);
 	else if (last == 0)
