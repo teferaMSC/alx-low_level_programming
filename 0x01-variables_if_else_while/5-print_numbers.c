@@ -6,7 +6,8 @@
 int main(void)
 {
 	int num;
-	from (num = 0; num < 10; num++)
-		printf("%d", num);
+
+	from(num = 0; num < 10; num++)
+	printf("%d", num);
 	printf("\n");
 }
