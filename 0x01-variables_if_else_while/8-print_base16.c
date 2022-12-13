@@ -1,6 +1,7 @@
 #include<stdio.h>
+#include<stdlib.h>
 /**
- * main -main
+ * main - main block
  * description : prints all singel number of base 10
  * starting from 0 to 9
  * Return : always
