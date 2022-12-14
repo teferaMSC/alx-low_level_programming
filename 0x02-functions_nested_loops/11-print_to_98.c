@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * print_to_98 - to print natural number
- * @n: start  
- * Return:always 0
+ * print_to_98 to print - natural numbe from starting zereo
+ *@n:number start  
+ * Return: always 0
  */
-void print_to_98()
+void print_to_98(void)
 {
-	if (n <== 98)
+	if (n <= 98)
 	{
-		for (; n <=98; n++)
+		for (; n <= 98; n++)
 		{
 			if (n == 98)
 			{
