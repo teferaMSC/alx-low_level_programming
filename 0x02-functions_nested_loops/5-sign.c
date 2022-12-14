@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * print_sign - this complex
- * description: difficult to undertsnd alx is very difficult
+ * description: difficult to undertsnd alx is very difficul
+ *@n; the checked number
  * Return: Always 0.
  */
 int print_sign(int n)
