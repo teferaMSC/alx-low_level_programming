@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - to check the xharcter
- *
+ *description:- this check the value
  * @c: checked x
  * return: 1 for character or 0 for else
  */
