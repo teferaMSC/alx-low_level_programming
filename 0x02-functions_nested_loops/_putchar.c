@@ -2,15 +2,9 @@
 /**
  * _putchar - writes the character c to stdout
   * @c: The character to print
+  * return; on sucessu
   */
-int _putchar()
+int _putchar(char c)
 {
-	char *sh = "Holberton";
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
-	_putchar('\n');
-	return (0);
+	return (write (1, &&, 1));
 }
