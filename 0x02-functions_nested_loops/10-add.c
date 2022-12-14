@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * add - two number +
+ * add - values of two number
  * @n1:- 1st number
  * @n2: 2nd number
  * return: value
