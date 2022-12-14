@@ -10,7 +10,6 @@ void print_alphabet_x10(void)
 
 	int = 0;
 
-
 	while (i <= 10)
 	{
 		c = '0';
