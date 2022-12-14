@@ -5,6 +5,7 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+
 {
 	_putchar('_';)
 	_putchar('p');
@@ -15,6 +16,6 @@ int main(void)
 	_putchar('a');
 	_Putchar('r');
 	_Putchar('\n')
-	returan (0);
+	returan(0);
 }
 
