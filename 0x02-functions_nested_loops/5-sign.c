@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_sign
+ * print_sign - this complex
+ * description: difficult to undertsnd alx is very difficult
  * Return: Always 0.
  */
 int print_sign(int n)
@@ -13,7 +14,7 @@ int print_sign(int n)
 	else if (n < 0)
 	{
 		_putchar(45);
-		return(-1);
+		return (-1);
 	}
 	else
 	{
