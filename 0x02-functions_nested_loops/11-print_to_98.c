@@ -4,7 +4,7 @@
  *@n:number check
  *Return: always 0
  */
-void print_to_98(void)
+void print_to_98(int)
 {
 	if (n <= 98)
 	{
