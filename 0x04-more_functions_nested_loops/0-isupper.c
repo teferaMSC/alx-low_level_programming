@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * 0-isupper.c - function 
+ *_isupper - function to check
  * @c: input
  * Return: use 0 or 1 for lower and upper case
  */
