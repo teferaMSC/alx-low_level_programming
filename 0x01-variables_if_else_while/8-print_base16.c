@@ -12,8 +12,8 @@ int main(void)
 	char la;
 
 		for (ch = '0'; ch <= '9'; ch++)
-		putcha((ch % 10) +'0')
+		putchar((ch % 10) + '0');
 		for (la = 'a'; la <= 'f'; la++)
-		puctchar(la);
+		putchar(la);
 		return (0);
 		}
