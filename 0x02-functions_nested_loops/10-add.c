@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * 10-add - values of two number
+ * 10-add - the values of two number check
  * @n1:- 1st number
  * @n2: 2nd number
- * return: value
+ * return: value resualt
  */
 int add(int n1, int n2)
 {
