@@ -1,9 +1,8 @@
 #include<stdio.h>
 /**
- * main -print  6-print_numberz.c 
+ *main -print 6-print_numberz.c 
 *Return: Always 0
 */
-
 int main(void)
 {
 	int num;
