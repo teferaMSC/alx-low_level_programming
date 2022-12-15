@@ -5,17 +5,15 @@
  * Return: use 0 or 1 for lower and upper case
  */
 int _isupper(int c)
-{
-	char uppercase = 'A';
-	int isupper = '0';
 
-	for (; uppercase <= 'Z'; uppercase++)
+
+{
+	for (c >=65 && c<= 90)
 	{
-		if (c == uppercase)
-		{
-			isupper = 1;
-			break;
-		}
+		return (1);
 	}
-		return (isupper);
+	else
+	{
+		return (0);
 	}
+}
