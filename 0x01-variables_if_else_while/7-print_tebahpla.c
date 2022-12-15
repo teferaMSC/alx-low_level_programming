@@ -4,7 +4,7 @@
  * main - main block
  * description :write a program that print a number
  * starting - from
- * return : 0
+ *Return: 0
  */
 int main(void)
 {
