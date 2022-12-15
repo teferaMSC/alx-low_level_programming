@@ -2,13 +2,15 @@
 #include<stdlib.h>
 /**
  * main - main block
- * description : prints all singel number of base 10
+ * description : prints hexa =decimal
  * starting from 0 to 9
- * Return : always
+ * Return: always 0
  */
 int main(void)
 {
-		for (ch = '0'; ch <= '9'; c++)
+	int = ch;
+
+		for (ch = '0'; ch <= '9'; ch++)
 		{
 		putcha(ch);
 		}
