@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
- * main - print  6-print_numberz.c 
-*Rreturn: Always 0
+ * main -print  6-print_numberz.c 
+*Return: Always 0
 */
 
 int main(void)
