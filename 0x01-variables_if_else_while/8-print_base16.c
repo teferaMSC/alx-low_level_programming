@@ -8,16 +8,12 @@
  */
 int main(void)
 {
-	int = ch;
+	int ch;
+	char la;
 
 		for (ch = '0'; ch <= '9'; ch++)
-		{
-		putcha(ch);
-		}
-		for (ch = 'a'; ch <= 'f'; ch++)
-		{
-		puctchar(ch);
-		}
-		puchchar(ch);
+		putcha((ch % 10) +'0')
+		for (la = 'a'; la <= 'f'; la++)
+		puctchar(la);
 		return (0);
 		}
