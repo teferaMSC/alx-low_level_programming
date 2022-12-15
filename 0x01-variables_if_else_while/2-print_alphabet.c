@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<time.h>
-#include<stdlib.h>
 /**
- * main - lower case letter 
- * Return: Always 0
+ *main -lower case lette 
+ *Return: Always 0
  */
 int main(void)
 {
