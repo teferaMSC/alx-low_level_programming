@@ -5,10 +5,8 @@
  * Return: use 0 or 1 for lower and upper case
  */
 int _isupper(int c)
-
-
 {
-	for (c >=65 && c<= 90)
+	for (c >= 'A') && (c <= Z)
 	{
 		return (1);
 	}
