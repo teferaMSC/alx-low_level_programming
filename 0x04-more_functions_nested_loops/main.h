@@ -1,8 +1,9 @@
-#ifndef HOLBERTON_H_INCLUDED                                                                                                            
+#ifndef MAIN_H
+#define MAIN_H 
 
-#define HOLBERTON_H_INCLUDED                                                                                                            
-
-int _putchar(char c);                                                                                                                   
+int _putchar(char c);
+int _isupper(int c);
+int _isdigit(int c);
 
 void print_alphabet(void);                                                                                                              
 
