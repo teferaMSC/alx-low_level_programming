@@ -4,7 +4,7 @@
  * @n: input
  * Return: line
  */
-void print_line(line n)
+void print_line(int n)
 {
 int l;
 
