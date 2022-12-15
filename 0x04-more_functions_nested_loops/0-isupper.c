@@ -4,7 +4,7 @@
  * @c: input
  * Return: use 0 or 1 for lower and upper case
  */
-int -isupper(int c)
+int _isupper(int c)
 {
 	char uppercase = 'A';
 	int isupper = 'a';
