@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 /**
- * * main - main bolk
+ * main -main bolk
  * descripution: write program
- * return : 0;
+ *Return: 0;
  */
 int main(void)
 {
