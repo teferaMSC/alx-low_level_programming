@@ -1,103 +1,53 @@
+#include <stdio.h>
+
 #include "main.h"
 
 
 
 /**
  *
- * * convert_day - converts day of month to day of year, without accounting
+ * * main - takes a date and prints how many days are left in the year, taking
  *
- * * for leap year
+ * * leap years into account
  *
- * * @month: month in number format
- *
- * * @day: day of month
- *
- * * Return: day of year
+ * * Return: 0
  *
  * */
 
 
 
-int convert_day(int month, int day)
+int main(void)
 
 {
 
-	    switch (month)
+	    int month;
 
-		        {
+	        int day;
 
-				        case 2:
+		    int year;
 
-						            day = 31 + day;
 
-							                break;
 
-									        case 3:
+		        month = 4;
 
-									            day = 59 + day;
+			    day = 01;
 
-										                break;
+			        year = 1997;
 
-												        case 4:
 
-												            day = 90 + day;
 
-													                break;
+				    printf("Date: %02d/%02d/%04d\n", month, day, year);
 
-															        case 5:
 
-															            day = 120 + day;
 
-																                break;
+				        day = convert_day(month, day);
 
-																		        case 6:
 
-																		            day = 151 + day;
 
-																			                break;
+					    print_remaining_days(month, day, year);
 
-																					        case 7:
 
-																					            day = 181 + day;
 
-																						                break;
-
-																								        case 8:
-
-																								            day = 212 + day;
-
-																									                break;
-
-																											        case 9:
-
-																											            day = 243 + day;
-
-																												                break;
-
-																														        case 10:
-
-																														            day = 273 + day;
-
-																															                break;
-
-																																	        case 11:
-
-																																	            day = 304 + day;
-
-																																		                break;
-
-																																				        case 12:
-
-																																				            day = 334 + day;
-
-																																					                break;
-
-																																							        default:
-
-																																							            break;
-
-																																								        }
-
-	        return (day);
+					        return (0);
 
 }
