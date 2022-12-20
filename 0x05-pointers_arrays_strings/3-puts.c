@@ -1,42 +1,21 @@
 #include "main.h"
 /**
- * print_rev - imprime
- * @s: string
- * return: 0
- */
-
-void print_rev(char *s)
+ *print_rev - imprime
+*@s: string
+*Return: 0
+*/
+void _puts(char *str)
 
 {
 
-		int longi = 0;
+		while (*str != '\0')
 
-			int o;
+				{
 
+							_putchar(*str++);
 
+								}
 
-				while (*s != '\0')
-
-						{
-
-									longi++;
-
-											s++;
-
-												}
-
-					s--;
-
-						for (o = longi; o > 0; o--)
-
-								{
-
-											_putchar(*s);
-
-													s--;
-
-														}
-
-							_putchar('\n');
+				_putchar('\n');
 
 }
