@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
- * main - print either number postive  or negative
+/*
+ * main - print either number postive  or negativ
  * Return: Always 0
  */
 int main(void)
@@ -19,7 +19,7 @@ int main(void)
 	{
 		printf("%d is zero \n", n);
 	}
-	else (n < 6)
+	else if (n < 6)
 	{
 		printf("%d is negative \n", n);
 	}
