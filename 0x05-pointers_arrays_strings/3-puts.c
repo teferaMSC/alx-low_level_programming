@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev - imprime 
+ * print_rev - imprime
  * @s: string
  * return: 0
  */
