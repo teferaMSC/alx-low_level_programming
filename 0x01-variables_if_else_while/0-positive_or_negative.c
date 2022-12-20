@@ -4,6 +4,7 @@
 /*
  * main - print either number postive  or negativ
  * Return: Always 0
+ *
  */
 int main(void)
 {
@@ -19,7 +20,7 @@ int main(void)
 	{
 		printf("%d is zero \n", n);
 	}
-	else if (n < 6)
+	else
 	{
 		printf("%d is negative \n", n);
 	}
