@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * _puts - prints a string, followed by a new line
+ * print_rev - imprime en reversa
  * @s: string
- * return: 0
+ * Return: 0
  */
-
 void print_rev(char *s)
 {
 	int longi = 0;
