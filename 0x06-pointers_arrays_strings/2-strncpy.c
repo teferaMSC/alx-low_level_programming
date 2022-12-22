@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _strncpy - this is not clear for me i don't now what happen in this c tutorial and et
- * @dest: buffer 
+ * _strncpy - this is not clear for me i don't now what happen in this c tut
+ * @dest: buff
  * @src: source
  * @n: number
  * Return: returns
  */
-char *_strncpy(char *dest,char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
