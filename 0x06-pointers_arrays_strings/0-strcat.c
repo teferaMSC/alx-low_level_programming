@@ -1,11 +1,11 @@
 #include"main.h"
 /**
- * stca: string point works for this task which is not posible short we hae ber
+ * strcat: the string point to works for hts task which is not posible s
  * @dest: pointer
  * @src: sources
  * Return: destination
  */
-char *stca(char *dest, const char *src)
+char *strcat(char *dest, const char *src)
 {
 	int index = 0, dest_len = 0;
 
