@@ -1,10 +1,9 @@
 #include"main.h"
 /**
  * _strcmp - comper two srting
- * @s1: first string 
+ * @s1: first string.
  * @s2: second string
- * Return: negatve diff.
- *
+ * Return: negatve diff
  */
 int _strcmp(char *s1, char *s2)
 {
