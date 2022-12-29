@@ -3,7 +3,7 @@
  * 10-add - the values of two number check
  * @n1:- 1st number
  * @n2: 2nd number
- * return: value resualt
+ *Return: value resualt
  */
 int add(int n1, int n2)
 {
