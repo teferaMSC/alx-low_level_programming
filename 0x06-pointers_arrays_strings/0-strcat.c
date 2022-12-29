@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 /**
  * _strcat - the string point to works for hts task which is not posible s
  * @dest: pointer
