@@ -1,11 +1,11 @@
 #include"main.h"
 /**
- *_strcat: the string point to works for hts task which is not posible s
+ * _strcat - the string point to works for hts task which is not posible s
  * @dest: pointer
  * @src: sources
  * Return: destination
  */
-char *strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
