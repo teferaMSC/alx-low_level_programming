@@ -1,18 +1,19 @@
 #include "main.h"
 /**
- * reverse_arry - for reverse
+ * print_rev - for reverse
  * @a: arry integer reverse
- * @n: element of arry
- *
  */
-void reverse_array(int *a, int *n)
+void print_rev(char *a)
 {
-	int tmp, index;
+	int c = 0;
 
-	for (index = n - 1; index >= n / 2; index--)
+	while (a[c] != '\0')
 	{
-		tmp = a[n -1 - index];
-		a[n - 1 - index] = a[index];
-		a[index] = tmp;
+		c++;
 	}
+	for (c -= 1; c >= 0; c--)
+	{
+		_putchar(a[c]);
+	}
+	_putchar('\n');
 }
