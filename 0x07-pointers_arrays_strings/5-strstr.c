@@ -7,9 +7,9 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	char *str1, str2;
+	char *str1, *str2;
 
-	while (*hatstack != '\0')
+	while (*haystack != '\0')
 	{
 		while (*haystack != '\0' && *str2 != '\0' && *haystack == *str2)
 		{
