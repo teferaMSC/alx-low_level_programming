@@ -22,4 +22,9 @@ char *_strstr(char *haystck, char *needle)
 				return (haystack);
 				index++;
 			}
-			wh
+			while (haystack[index] == neddle[index]);
+		}
+		haystack++;
+	}
+	return('\0');
+}
