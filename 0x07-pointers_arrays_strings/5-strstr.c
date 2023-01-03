@@ -5,7 +5,7 @@
  * @needle: substring
  * Return: located
  */
-char *_strstr(char *haystck, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 	int index;
 
@@ -14,17 +14,17 @@ char *_strstr(char *haystck, char *needle)
 	while (*haystack)
 	{
 		index = 0;
+
 		if (haystack[index] == needle[index])
 		{
-			do 
-			{
-				if (needle[index + 1] == '\0');
+			do {
+				if (needle[index + 1] == '\0')
 				return (haystack);
 				index++;
 			}
-			while (haystack[index] == neddle[index]);
+			while (haystack[index] == neddle[index])
 		}
 		haystack++;
 	}
-	return('\0');
+	return ('\0');
 }
