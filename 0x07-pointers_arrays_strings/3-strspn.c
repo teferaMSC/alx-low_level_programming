@@ -19,8 +19,8 @@ unsigned int _strspn(char *s, char *accept)
 				bytes++;
 				break;
 			}
-			else if (accep[index + 1] == '\0')
-				return(bytes);
+			else if (accept[index + 1] == '\0')
+				return (bytes);
 		}
 		s++;
 	}
