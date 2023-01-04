@@ -1,20 +1,11 @@
-#include"main.h"                                                                                                                        
-
-#include <unistd.h>                                                                                                                     
-
-/**                                                                                                                                     
- *
- *  * _putchar - charcter c                                                                                                                
- *
- *   * @c: to character                                                                                                                     
- *
- *    * Return: on succ. 1, errer -1 and other 0                                                                                             
- *
- *     */                                                                                                                                     
-
-int _putchar(char c)                                                                                                                    
-
-{                                                                                                                                       
-
+#include"main.h"
+#include <unistd.h>
+/**
+ * _putchar - character c
+ * @c: to print 
+ * Return: succ 1
+ */
+int _putchar(char c)
+{
 	return (write(1, &c, 1));
 }
